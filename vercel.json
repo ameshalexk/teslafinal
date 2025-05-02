@@ -1,14 +1,13 @@
 {
-    "headers": [
-      {
-        "source": "/",
-        "headers": [
-          {
-            "key": "Content-Type",
-            "value": "text/plain"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "headers": [
+    {
+      "source": "/.well-known/appspecific/com.tesla.3p.public-key.pem",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/x-pem-file"
+        }
+      ]
+    }
+  ]
+}
