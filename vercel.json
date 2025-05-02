@@ -1,0 +1,14 @@
+{
+    "headers": [
+      {
+        "source": "/public.pem",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain"
+          }
+        ]
+      }
+    ]
+  }
+  
