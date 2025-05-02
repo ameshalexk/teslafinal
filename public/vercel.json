@@ -1,8 +1,7 @@
 {
-  "public": true,
   "headers": [
     {
-      "source": "/.well-known/appspecific/com.tesla.3p.public-key.pem",
+      "source": "/.well-known/appspecific/:file*",
       "headers": [
         {
           "key": "Content-Type",
